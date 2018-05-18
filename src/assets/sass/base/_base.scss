@@ -6,10 +6,13 @@
     padding: 0;
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
-    &:active,
-    &:focus {
-        outline: none !important;
-    }
+}
+
+*:active,
+*:focus {
+    outline: none !important;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
 }
 
 // 1rem = 16px
